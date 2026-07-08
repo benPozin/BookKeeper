@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+frontend/dist/
+
+# Runtime data (db, oauth tokens, generated output)
+data/
+output/
+
+# OS
+.DS_Store

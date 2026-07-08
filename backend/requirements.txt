@@ -1,0 +1,16 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+SQLAlchemy==2.0.30
+pydantic==2.7.1
+python-multipart==0.0.9
+google-auth==2.30.0
+google-auth-oauthlib==1.2.0
+google-api-python-client==2.134.0
+pdfplumber==0.11.0
+reportlab==4.2.0
+openpyxl==3.1.2
+APScheduler==3.10.4
+watchdog==4.0.1
+google-genai==1.16.1
+pytesseract==0.3.13
+pytest==8.2.2

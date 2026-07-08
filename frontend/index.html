@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#0a120e" />
+    <title>BookKeeper</title>
+    <script>
+      try {
+        document.documentElement.dataset.theme =
+          localStorage.getItem("bk-theme") || "dark";
+      } catch (e) {}
+    </script>
+    <style>
+      html { background: #0a120e; }
+      html[data-theme="light"] { background: #f1ecdc; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
